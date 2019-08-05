@@ -9,6 +9,7 @@ import (
 	"test.go/systematic"
 )
 //GENERATE_START
+
 func ProcessBusiness_Invoke(stub shim.ChaincodeStubInterface, tranCode string, requestMsg *systematic.Message, returnMsg *systematic.Message ) {
 
 	switch tranCode{
@@ -452,4 +453,5 @@ func ProcessBusiness_Query(stub shim.ChaincodeStubInterface, tranCode string, re
 		systematic.ErrorMessage(returnMsg)
 	}
 }
+
 //GENERATE_END

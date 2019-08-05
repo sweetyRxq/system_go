@@ -2,10 +2,12 @@ package model
 
 type Topic struct {
 //GENERATE_START 
+ 
 	Name string`json:"name"` 
 	Uuid string`json:"uuid"`	 
-	CommentLogs []CommentLog`json:"commentLogs"`	 
-	TopicName string`json:"topicName"`	
+	TopicName string`json:"topicName"`	 
+	CommentLogs []CommentLog`json:"commentLogs"`	
 	DataType string `json:"dataType"`
+
 //GENERATE_END
 }

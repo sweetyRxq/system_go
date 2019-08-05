@@ -9,6 +9,7 @@ import (
 	"test.go/systematic"
 )
 //GENERATE_START
+
 	func AddTopic(stub shim.ChaincodeStubInterface, TopicJson string, fileArr []string) (error, string){
 		var TopicObj *Topic
 	
@@ -119,4 +120,5 @@ import (
 	
 		return nil, "", resArr
 	}
+
 //GENERATE_END

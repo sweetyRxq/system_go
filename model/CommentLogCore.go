@@ -9,6 +9,7 @@ import (
 	"test.go/systematic"
 )
 //GENERATE_START
+
 	func AddCommentLog(stub shim.ChaincodeStubInterface, CommentLogJson string, fileArr []string) (error, string){
 		var CommentLogObj *CommentLog
 	
@@ -119,4 +120,5 @@ import (
 	
 		return nil, "", resArr
 	}
+
 //GENERATE_END
